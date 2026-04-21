@@ -25,4 +25,14 @@ public class TransactionController {
         List<Transaction> transactions = transactionService.getTransactionsByAccountId(accountId);
         return ResponseEntity.ok(transactions);
     }
+
+    @GetMapping("/fraud/flagged")
+    public ResponseEntity<List<Transaction>> getFlaggedTransactions() {
+        return ResponseEntity.ok(transactionService.getFlaggedTransactions());
+    }
+
+    @GetMapping("/fraud/flagged/{accountId}")
+    public ResponseEntity<List<Transaction>> getFlaggedTransactionsByAccountId(@PathVariable Long accountId) {
+        return ResponseEntity.ok(transactionService.getFlaggedTransactionsByAccountId(accountId));
+    }
 }

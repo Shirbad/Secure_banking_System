@@ -9,4 +9,8 @@ public interface TransactionService {
     void saveTransaction(String type, double amount, Long sourceId, Long targetId);
 
     List<Transaction> getTransactionsByAccountId(Long accountId);
+
+    List<Transaction> getFlaggedTransactions();
+
+    List<Transaction> getFlaggedTransactionsByAccountId(Long accountId);
 }

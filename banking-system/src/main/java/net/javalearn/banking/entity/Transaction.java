@@ -29,4 +29,8 @@ public class Transaction {
     private Long targetAccountId;
 
     private LocalDateTime timestamp;
+
+    private boolean fraudFlagged;
+
+    private String fraudReason;
 }

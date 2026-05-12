@@ -1,12 +1,12 @@
-# 🏦 Banking System Backend
+#  Banking System Backend
 
 A secure and scalable **Banking System Backend** built using **Java and Spring Boot**, implementing real-world banking operations with strong focus on **security, transaction processing, and business logic**.
 
 ---
 
-## 🚀 Features
+## Features
 
-### 🔐 Authentication & Security
+###  Authentication & Security
 
 * User registration and login
 * Password encryption using **BCrypt**
@@ -15,7 +15,7 @@ A secure and scalable **Banking System Backend** built using **Java and Spring B
 
 ---
 
-### 💳 Account Management
+###  Account Management
 
 * Create and manage bank accounts
 * Fetch account details
@@ -23,7 +23,7 @@ A secure and scalable **Banking System Backend** built using **Java and Spring B
 
 ---
 
-### 💰 Core Banking Operations
+###  Core Banking Operations
 
 * Deposit money
 * Withdraw money
@@ -31,14 +31,14 @@ A secure and scalable **Banking System Backend** built using **Java and Spring B
 
 ---
 
-### 📊 Transactions
+###  Transactions
 
 * Record all transactions (Deposit, Withdraw, Transfer)
 * View transaction history per account
 
 ---
 
-### 💸 Payments & Cashback
+###  Payments & Cashback
 
 * Payment processing system
 * **2% cashback calculation**
@@ -47,7 +47,7 @@ A secure and scalable **Banking System Backend** built using **Java and Spring B
 
 ---
 
-### 🏆 Advanced Features
+###  Advanced Features
 
 * Top spenders API (analytics)
 * Fraud detection system:
@@ -59,7 +59,7 @@ A secure and scalable **Banking System Backend** built using **Java and Spring B
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 * **Java**
 * **Spring Boot**
@@ -73,7 +73,7 @@ A secure and scalable **Banking System Backend** built using **Java and Spring B
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 src/main/java/net/javalearn/banking
@@ -92,16 +92,16 @@ src/main/java/net/javalearn/banking
 
 ---
 
-## 🔑 API Endpoints
+##  API Endpoints
 
-### 🔐 Authentication
+###  Authentication
 
 * POST `/api/auth/register`
 * POST `/api/auth/login`
 
 ---
 
-### 💳 Accounts
+###  Accounts
 
 * POST `/api/accounts`
 * GET `/api/accounts/{id}`
@@ -109,7 +109,7 @@ src/main/java/net/javalearn/banking
 
 ---
 
-### 💰 Transactions
+###  Transactions
 
 * PUT `/api/accounts/{id}/deposit`
 * PUT `/api/accounts/{id}/withdraw`
@@ -118,20 +118,20 @@ src/main/java/net/javalearn/banking
 
 ---
 
-### 💸 Payments
+###  Payments
 
 * POST `/api/payments/pay`
 * GET `/api/payments/{paymentId}`
 
 ---
 
-### 🏆 Analytics
+###  Analytics
 
 * GET `/api/accounts/top-spenders?n=5`
 
 ---
 
-## 🔒 Authentication
+##  Authentication
 
 After login, include JWT token in request headers:
 
@@ -141,7 +141,7 @@ Authorization: Bearer <your_token>
 
 ---
 
-## ⚙️ Setup Instructions
+##  Setup Instructions
 
 ### 1️⃣ Clone the Repository
 
@@ -173,7 +173,7 @@ mvn spring-boot:run
 
 ---
 
-## 🧪 Testing
+##  Testing
 
 Use **Postman** to test APIs:
 
@@ -184,7 +184,7 @@ Use **Postman** to test APIs:
 
 ---
 
-## 🧠 Key Learnings
+##  Key Learnings
 
 * Implemented secure authentication using JWT and BCrypt
 * Designed real-world banking workflows (transactions, payments, cashback)
@@ -195,14 +195,14 @@ Use **Postman** to test APIs:
 
 ---
 
-## 👩‍💻 Author
+##  Author
 
 **Disha Shirbad**
 Backend Developer | Java | Spring Boot
 
 ---
 
-## ⭐ Project Highlights
+##  Project Highlights
 
 * Real-world banking backend system
 * Secure authentication & authorization
@@ -212,7 +212,7 @@ Backend Developer | Java | Spring Boot
 
 ---
 
-## 🔗 Future Improvements
+##  Future Improvements
 
 * Role-based access control (ADMIN/USER)
 * Email/OTP verification
